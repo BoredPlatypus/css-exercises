@@ -1,3 +1,13 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+*{
+  margin: 0px;
+}
+
 body {
   background: #eee;
   font-family: sans-serif;
@@ -7,7 +17,16 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  /*padding: 8px;n1*/
 }
+
+/*.title, .content, .button-container{
+  padding: 8px;
+}n2*/
+
+/*.title, .content{
+  border-bottom: 8px solid white;
+}n3*/
 
 .title {
   background: #e3f4ff;
@@ -16,6 +35,7 @@ body {
 
 .content {
   background: #e3f4ff;
+  /*padding: 16px 8px; n4*/
 }
 
 .button-container {
@@ -26,4 +46,7 @@ body {
 button {
   background: white;
   border: 1px solid #eee;
+  /*padding: 8px 24px;
+  display: block;
+  margin: 0 auto;n5*/
 }
